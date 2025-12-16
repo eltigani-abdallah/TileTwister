@@ -9,14 +9,15 @@ option(ENABLE_TESTS "Build tests" ON)
 
 # ---- Core library ----
 add_library(tiletwister_core
-    src/core/Tile.cpp
-    src/core/Grid.cpp
-    src/core/Game.cpp
+    src/Direction.cpp
+    src/Tile.cpp
+    src/Grid.cpp
+    src/Game.cpp
 )
 
-target_include_directories(tiletwister_core PUBLIC
-    ${CMAKE_CURRENT_SOURCE_DIR}/src
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/core
+target_include_directories(tiletwister_core
+    PUBLIC
+        ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
 if (MSVC)
@@ -25,25 +26,25 @@ else()
     target_compile_options(tiletwister_core PRIVATE -Wall -Wextra -Wpedantic)
 endif()
 
-# ---- Terminal executable ----
+# ---- Executable ----
 add_executable(tiletwister
     src/main.cpp
 )
+
 target_link_libraries(tiletwister PRIVATE tiletwister_core)
 
 # ---- Tests ----
 if (ENABLE_TESTS)
     enable_testing()
 
-    add_executable(test_grid src/tests/TestGrid.cpp)
+    add_executable(test_grid tests/TestGrid.cpp)
     target_link_libraries(test_grid PRIVATE tiletwister_core)
     add_test(NAME test_grid COMMAND test_grid)
 
-    add_executable(test_moves src/tests/TestMoves.cpp)
+    add_executable(test_moves tests/TestMoves.cpp)
     target_link_libraries(test_moves PRIVATE tiletwister_core)
     add_test(NAME test_moves COMMAND test_moves)
 endif()
-
 
 # SDL2 from MSYS2 provides SDL2Config.cmake -> use CONFIG
 find_package(SDL2 REQUIRED CONFIG)
