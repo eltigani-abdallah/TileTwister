@@ -1,3 +1,14 @@
+# Node / Husky
+node_modules/
+npm-debug.log*
+package-lock.json
+package.json
+.husky
+commitlint.config.js
+.commitlintrc
+.commitlintrc.json
+.commitlintrc.yml
+
 # Prerequisites
 *.d
 
