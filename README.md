@@ -16,4 +16,4 @@ Commit messages must start with a keyword:
 - refactor
 - revert
 - style
-- test# hook test
+- test
