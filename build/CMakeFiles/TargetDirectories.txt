@@ -1,0 +1,3 @@
+C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build/CMakeFiles/sdl_test.dir
+C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build/CMakeFiles/edit_cache.dir
+C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build/CMakeFiles/rebuild_cache.dir
