@@ -1,6 +1,7 @@
 {
   "InstallScripts": [
-    "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build/cmake_install.cmake"
+    "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build/cmake_install.cmake",
+    "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build/vendored/SDL/cmake_install.cmake"
   ],
   "Parallel": false
 }

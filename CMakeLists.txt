@@ -10,56 +10,38 @@ option(ENABLE_TESTS "Build tests" ON)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 
+add_subdirectory(vendored/SDL EXCLUDE_FROM_ALL)
 
+# -------------------------
+# Core library (testable)
+# -------------------------
+add_library(TileTwisterLib STATIC
+    src/GameManager.cpp
+    src/InputManager.cpp
+    src/sdl/Window.cpp
+)
 
-target_include_directories(tiletwister_core
+target_include_directories(TileTwisterLib
     PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
 if (MSVC)
-    target_compile_options(tiletwister_core PRIVATE /W4 /permissive-)
+    target_compile_options(TileTwisterLib PRIVATE /W4 /permissive-)
 else()
-    target_compile_options(tiletwister_core PRIVATE -Wall -Wextra -Wpedantic)
+    target_compile_options(TileTwisterLib PRIVATE -Wall -Wextra -Wpedantic)
 endif()
 
-# ---- Executable ----
-add_executable(tiletwister
+target_link_libraries(TileTwisterLib PUBLIC SDL3::SDL3)
+
+# -------------------------
+# Main executable
+# -------------------------
+add_executable(TileTwister
     src/main.cpp
 )
 
-target_link_libraries(tiletwister PRIVATE tiletwister_core)
-
-# ---- Tests ----
-if(ENABLE_TESTS)
-    include(CTest)
-    enable_testing()
-
-    add_executable(test_grid tests/TestGrid.cpp)
-    target_compile_features(test_grid PRIVATE cxx_std_20)
-    target_link_libraries(test_grid PRIVATE tiletwister_core)
-    add_test(NAME test_grid COMMAND test_grid)
-
-    add_executable(test_moves tests/TestMoves.cpp)
-    target_compile_features(test_moves PRIVATE cxx_std_20)
-    target_link_libraries(test_moves PRIVATE tiletwister_core)
-    add_test(NAME test_moves COMMAND test_moves)
-endif()
-
-
-
-add_subdirectory(vendored/SDL EXCLUDE_FROM_ALL)
-
-add_executable(TileTwister
-        src/GameManager.cpp
-        include/GameManager.h
-        src/sdl/Window.cpp
-        include/sdl/Window.h
-        src/InputManager.cpp
-        include/InputManager.h
-        include/GameState.h)
-
-target_link_libraries(TileTwister PRIVATE SDL3::SDL3)
+target_link_libraries(TileTwister PRIVATE TileTwisterLib)
 
 if (WIN32)
     add_custom_command(TARGET TileTwister POST_BUILD
@@ -67,4 +49,22 @@ if (WIN32)
             $<TARGET_FILE:SDL3::SDL3>
             $<TARGET_FILE_DIR:TileTwister>
     )
+endif()
+
+# -------------------------
+# Tests
+# -------------------------
+if(ENABLE_TESTS)
+    include(CTest)
+    enable_testing()
+
+    add_executable(test_grid tests/TestGrid.cpp)
+    target_compile_features(test_grid PRIVATE cxx_std_20)
+    target_link_libraries(test_grid PRIVATE TileTwisterLib)
+    add_test(NAME test_grid COMMAND test_grid)
+
+    add_executable(test_moves tests/TestMoves.cpp)
+    target_compile_features(test_moves PRIVATE cxx_std_20)
+    target_link_libraries(test_moves PRIVATE TileTwisterLib)
+    add_test(NAME test_moves COMMAND test_moves)
 endif()
