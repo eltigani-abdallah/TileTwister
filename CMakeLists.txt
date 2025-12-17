@@ -7,12 +7,13 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 option(ENABLE_TESTS "Build tests" ON)
 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
+
 # ---- Core library ----
 add_library(tiletwister_core
-    src/Direction.cpp
-    src/Tile.cpp
+        src/Tile.cpp
     src/Grid.cpp
-    src/Game.cpp
 )
 
 target_include_directories(tiletwister_core
@@ -46,17 +47,25 @@ if (ENABLE_TESTS)
     add_test(NAME test_moves COMMAND test_moves)
 endif()
 
-# SDL2 from MSYS2 provides SDL2Config.cmake -> use CONFIG
-find_package(SDL2 REQUIRED CONFIG)
 
-add_executable(sdl_test sc/sdl/sdl_test.cpp)
 
-target_link_libraries(sdl_test PRIVATE SDL2::SDL2main SDL2::SDL2)
+add_subdirectory(vendored/SDL EXCLUDE_FROM_ALL)
+
+add_executable(TileTwister
+        src/GameManager.cpp
+        include/GameManager.h
+        src/sdl/Window.cpp
+        include/sdl/Window.h
+        src/InputManager.cpp
+        include/InputManager.h
+        include/GameState.h)
+
+target_link_libraries(TileTwister PRIVATE SDL3::SDL3)
 
 if (WIN32)
-    add_custom_command(TARGET sdl_test POST_BUILD
+    add_custom_command(TARGET TileTwister POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy_if_different
-            $<TARGET_FILE:SDL2::SDL2>
-            $<TARGET_FILE_DIR:sdl_test>
+            $<TARGET_FILE:SDL3::SDL3>
+            $<TARGET_FILE_DIR:TileTwister>
     )
 endif()

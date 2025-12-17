@@ -1,0 +1,11 @@
+#ifndef TILETWISTER_GAMESTATE_H
+#define TILETWISTER_GAMESTATE_H
+
+enum GameState {
+    RUNNING,
+    PAUSE,
+    WIN,
+    LOSE,
+};
+
+#endif //TILETWISTER_GAMESTATE_H
