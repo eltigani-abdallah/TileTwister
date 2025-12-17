@@ -10,11 +10,7 @@ option(ENABLE_TESTS "Build tests" ON)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 
-# ---- Core library ----
-add_library(tiletwister_core
-        src/Tile.cpp
-    src/Grid.cpp
-)
+
 
 target_include_directories(tiletwister_core
     PUBLIC
@@ -35,14 +31,17 @@ add_executable(tiletwister
 target_link_libraries(tiletwister PRIVATE tiletwister_core)
 
 # ---- Tests ----
-if (ENABLE_TESTS)
+if(ENABLE_TESTS)
+    include(CTest)
     enable_testing()
 
     add_executable(test_grid tests/TestGrid.cpp)
+    target_compile_features(test_grid PRIVATE cxx_std_20)
     target_link_libraries(test_grid PRIVATE tiletwister_core)
     add_test(NAME test_grid COMMAND test_grid)
 
     add_executable(test_moves tests/TestMoves.cpp)
+    target_compile_features(test_moves PRIVATE cxx_std_20)
     target_link_libraries(test_moves PRIVATE tiletwister_core)
     add_test(NAME test_moves COMMAND test_moves)
 endif()
