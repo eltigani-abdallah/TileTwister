@@ -59,6 +59,7 @@ commitlint.config.js
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 !*.code-workspace
+.vscode/
 
 # Built Visual Studio Code Extensions
 *.vsix
