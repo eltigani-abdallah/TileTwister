@@ -2,6 +2,8 @@
 #define TILETWISTER_GAMEMANAGER_H
 #include "sdl/Window.hpp"
 
+#include <iostream>
+
 #include "GameState.hpp"
 
 

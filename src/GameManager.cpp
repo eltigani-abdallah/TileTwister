@@ -17,8 +17,16 @@ void GameManager::render() {
 }
 
 void GameManager::run() {
-
+        bool running = true;
         window.open();
 
-        SDL_Delay(3000);
+        while (running) {
+
+                window.handleEvents();
+                if (window.isCloseRequested()==true) {
+                        running = false;
+                }
+        }
+
+
 }

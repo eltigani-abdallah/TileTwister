@@ -60,7 +60,8 @@ if(ENABLE_TESTS)
     include(CTest)
     enable_testing()
 
-    add_executable(test_grid tests/TestGrid.cpp)
+    add_executable(test_grid tests/TestGrid.cpp
+    )
     target_compile_features(test_grid PRIVATE cxx_std_20)
     target_link_libraries(test_grid PRIVATE TileTwisterLib)
     add_test(NAME test_grid COMMAND test_grid)

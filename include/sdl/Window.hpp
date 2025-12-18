@@ -4,6 +4,8 @@
 #include <SDL3/SDL_init.h>
 #include <string>
 
+
+
 class Window {
 
 public:
@@ -21,11 +23,23 @@ public:
      */
     SDL_Window* open();
 
+
+    /**
+     * handle events such as closing the window
+     */
+    void handleEvents();
+
     //refresh window for new content
     void update();
 
     //close window
     void close();
+
+    /**
+     * check if handleEvents has made a request to close the current window
+     * @return true if the window closure was requested
+     */
+    bool isCloseRequested();
 
 
 
@@ -40,6 +54,7 @@ private:
     int height;
 
     SDL_Window* window;
+    bool closeRequest{false};
 
 
 };
