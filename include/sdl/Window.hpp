@@ -7,11 +7,18 @@
 class Window {
 
 public:
-
-    //initialize window class
+    /**
+     * initialize window parameters, to create a window, use Window::Open
+     * @param title window title
+     * @param width window width
+     * @param height window height
+     */
     Window(std::string title, int width, int height);
 
-    //open window
+    /**
+     * create and open an SDL_Window. params are initialized in Window::Window
+     * @return resizable SDL_Window
+     */
     SDL_Window* open();
 
     //refresh window for new content

@@ -10,16 +10,23 @@
 class GameManager {
 
 public:
-    //Constructor
+    /**
+     * Constructor for the GameManager
+     * @param title  window title
+     * @param width window width
+     * @param height window height
+     */
     GameManager(std::string title, int width, int height);
 
-    //handle physics and update screen
+
     void update();
 
     //render graphics
     void render();
 
-    //run game
+    /**
+     * run the game
+     */
     void run();
 
 
