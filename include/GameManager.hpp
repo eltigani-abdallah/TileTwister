@@ -11,7 +11,7 @@ class GameManager {
 
 public:
     //Constructor
-    GameManager();
+    GameManager(std::string title, int width, int height);
 
     //handle physics and update screen
     void update();

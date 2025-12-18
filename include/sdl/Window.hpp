@@ -12,7 +12,10 @@ public:
     Window(std::string title, int width, int height);
 
     //open window
-    void open();
+    SDL_Window* open();
+
+    //refresh window for new content
+    void update();
 
     //close window
     void close();
@@ -22,10 +25,14 @@ public:
 
 
 
-private:
 
-    const int WIDTH;
-    const int HEIGHT;
+
+private:
+    std::string title;
+    int width;
+    int height;
+
+    SDL_Window* window;
 
 
 };

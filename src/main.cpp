@@ -8,6 +8,11 @@ int main() {
         return 1;
     }
 
+    GameManager gm("Hello, World!", 500, 500);
+
+
+    gm.run();
+
 
 
 
