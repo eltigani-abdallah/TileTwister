@@ -39,6 +39,8 @@ target_link_libraries(TileTwisterLib PUBLIC SDL3::SDL3)
 # -------------------------
 add_executable(TileTwister
     src/main.cpp
+        src/GameObject.cpp
+        include/GameObject.hpp
 )
 
 target_link_libraries(TileTwister PRIVATE TileTwisterLib)
