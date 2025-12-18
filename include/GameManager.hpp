@@ -1,6 +1,9 @@
 #ifndef TILETWISTER_GAMEMANAGER_H
 #define TILETWISTER_GAMEMANAGER_H
-#include "GameState.h"
+#include "sdl/Window.hpp"
+
+#include "GameState.hpp"
+
 
 
 
@@ -25,6 +28,9 @@ public:
 private:
     // enum to be added later to figure out which state the game is in
     GameState state;
+
+    //window for program to render on
+    Window window;
 
 
 

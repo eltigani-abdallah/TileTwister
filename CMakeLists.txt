@@ -17,8 +17,8 @@ add_subdirectory(vendored/SDL EXCLUDE_FROM_ALL)
 # -------------------------
 add_library(TileTwisterLib STATIC
     src/GameManager.cpp
-    src/InputManager.cpp
-    src/sdl/Window.cpp
+        src/InputManager.cpp
+        src/sdl/Window.cpp
 )
 
 target_include_directories(TileTwisterLib

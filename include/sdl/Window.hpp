@@ -1,5 +1,7 @@
 #ifndef TILETWISTER_WINDOW_H
 #define TILETWISTER_WINDOW_H
+#include <SDL3/SDL.h>
+#include <SDL3/SDL_init.h>
 #include <string>
 
 class Window {
@@ -7,7 +9,7 @@ class Window {
 public:
 
     //initialize window class
-    Window(std::string title);
+    Window(std::string title, int width, int height);
 
     //open window
     void open();
