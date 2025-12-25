@@ -20,11 +20,12 @@ void Window::handleEvents() {
     SDL_Event event;
 
     while (SDL_PollEvent(&event)) {
+        switch (event.type) {
+            case (SDL_EVENT_QUIT):
+                closeRequest=true;
+                close();
+                break;
 
-
-    if (event.type==SDL_EVENT_QUIT) {
-            closeRequest=true;
-            close();
         }
     }
 
