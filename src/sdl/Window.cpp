@@ -16,30 +16,10 @@ SDL_Window* Window::open() {
     return window;
 }
 
-void Window::handleEvents() {
-    SDL_Event event;
-
-    while (SDL_PollEvent(&event)) {
-        switch (event.type) {
-            case (SDL_EVENT_QUIT):
-                closeRequest=true;
-                close();
-                break;
-
-        }
-    }
-
-
-
-}
 
 void Window::close() {
 
 
     SDL_DestroyWindow(window);
 
-}
-
-bool Window::isCloseRequested() {
-    return closeRequest;
 }
