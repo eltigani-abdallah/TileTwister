@@ -11,6 +11,21 @@ void GameManager::update() {
 
 }
 
+
+void GameManager::handleEvents() {
+        SDL_Event event;
+
+        while (SDL_PollEvent(&event)) {
+                switch (event.type) {
+                        case (SDL_EVENT_QUIT):
+                                window.close();
+                                exit(0);
+                                break;
+
+                }
+        }
+}
+
 void GameManager::render() {
 
 
@@ -22,10 +37,8 @@ void GameManager::run() {
 
         while (running) {
 
-                window.handleEvents();
-                if (window.isCloseRequested()==true) {
-                        running = false;
-                }
+                handleEvents();
+
         }
 
 

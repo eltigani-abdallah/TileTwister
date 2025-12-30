@@ -1,10 +1,11 @@
 #ifndef TILETWISTER_GAMEMANAGER_H
 #define TILETWISTER_GAMEMANAGER_H
 #include "sdl/Window.hpp"
+#include "GameState.hpp"
 
 #include <iostream>
 
-#include "GameState.hpp"
+
 
 
 
@@ -22,6 +23,11 @@ public:
 
 
     void update();
+
+    /**
+     * handle events such as window closure
+     */
+    void handleEvents();
 
     //render graphics
     void render();
