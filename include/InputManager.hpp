@@ -1,15 +1,12 @@
 #ifndef TILETWISTER_INPUTMANAGER_H
 #define TILETWISTER_INPUTMANAGER_H
+#include "sdl/Window.hpp"
 
 
 class InputManager {
 
 public:
-    InputManager();
-
-    void moveTile();
-
-    void menuMove();
+    static void handleInput();
 
 
 
