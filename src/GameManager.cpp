@@ -35,3 +35,7 @@ void GameManager::run() {
 
 
 }
+
+Window GameManager::getWindow() {
+        return window;
+}

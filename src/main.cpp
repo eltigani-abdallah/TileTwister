@@ -20,7 +20,7 @@ int main() {
 
 
 
-
+    gm.getWindow().close();
     SDL_Quit();
     return 0;
 }

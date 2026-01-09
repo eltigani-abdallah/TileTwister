@@ -37,6 +37,12 @@ public:
      */
     void run();
 
+    /**
+     *
+     * @return Window
+     */
+    Window getWindow();
+
 
 
 
