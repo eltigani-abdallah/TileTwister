@@ -13,10 +13,12 @@ void GameManager::update() {
 }
 
 
-void GameManager::handleEvents() {
-
-        InputManager::handleInput();
-}
+// void GameManager::handleEvents() {
+//
+//         if (InputManager::handleInput()==false) {
+//                 endProg();
+//         }
+// }
 
 void GameManager::render() {
 
@@ -28,8 +30,10 @@ void GameManager::run() {
         window.open();
 
         while (running) {
-
-                handleEvents();
+                //handleInput returns true if everything is ok, false if the x button is clicked
+                if (InputManager::handleInput()==false) {
+                        running = false; //switch running to false and go back out to main
+                }
 
         }
 

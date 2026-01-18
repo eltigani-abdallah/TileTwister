@@ -20,6 +20,6 @@ int main() {
 
 
 
-    gm.endProg();
+    gm.endProg(); //close the window and quit SDL
     return 0;
 }

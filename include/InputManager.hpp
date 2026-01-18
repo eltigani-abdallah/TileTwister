@@ -6,7 +6,7 @@
 class InputManager {
 
 public:
-    static void handleInput();
+    static bool handleInput();
 
 
 
