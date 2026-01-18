@@ -13,12 +13,6 @@ void GameManager::update() {
 }
 
 
-// void GameManager::handleEvents() {
-//
-//         if (InputManager::handleInput()==false) {
-//                 endProg();
-//         }
-// }
 
 void GameManager::render() {
 
@@ -47,4 +41,5 @@ Window GameManager::getWindow() {
 void GameManager::endProg() {
         window.close();
         SDL_Quit();
+        exit(0);
 }

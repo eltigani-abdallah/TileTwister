@@ -27,10 +27,7 @@ public:
 
     void update();
 
-    /**
-     * handle events such as window closure
-     */
-    void handleEvents();
+
 
     //render graphics
     void render();
@@ -47,7 +44,7 @@ public:
     Window getWindow();
 
     /**
-     *end the program properly
+     *end the program properly\n call window.close, SDL_Quit and exit(0)
      */
     void endProg();
 
