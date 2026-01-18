@@ -22,6 +22,9 @@ public:
     GameManager(std::string title, int width, int height);
 
 
+    GameManager();
+
+
     void update();
 
     /**
@@ -42,6 +45,11 @@ public:
      * @return Window
      */
     Window getWindow();
+
+    /**
+     *end the program properly
+     */
+    void endProg();
 
 
 

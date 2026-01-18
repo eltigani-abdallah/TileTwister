@@ -39,3 +39,8 @@ void GameManager::run() {
 Window GameManager::getWindow() {
         return window;
 }
+
+void GameManager::endProg() {
+        window.close();
+        SDL_Quit();
+}
