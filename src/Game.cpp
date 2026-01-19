@@ -12,7 +12,7 @@ bool Game::hasWon() const {
     for (int i = 0; i < 4; ++i) {
         for (int j = 0; j < 4; ++j) {
             Tile* tile = grid.getTile(i, j);
-            if (tile && tile->getValue() >= 2048) {
+            if (tile && tile->getValue() >= 64) {
                 return true;
             }
         }
