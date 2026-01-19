@@ -1,0 +1,80 @@
+[
+  {
+    "directory": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build",
+    "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -I\"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include\" -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\tiletwister_core.dir\\src\\Direction.cpp.obj -c \"C:\\Users\\porta\\OneDrive\\Documents\\La plateforme\\C++\\Tile Twister 2048\\TileTwister\\src\\Direction.cpp\"",
+    "file": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/src/Direction.cpp",
+    "output": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build/CMakeFiles/tiletwister_core.dir/src/Direction.cpp.obj"
+  },
+  {
+    "directory": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build",
+    "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -I\"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include\" -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\tiletwister_core.dir\\src\\Tile.cpp.obj -c \"C:\\Users\\porta\\OneDrive\\Documents\\La plateforme\\C++\\Tile Twister 2048\\TileTwister\\src\\Tile.cpp\"",
+    "file": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/src/Tile.cpp",
+    "output": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build/CMakeFiles/tiletwister_core.dir/src/Tile.cpp.obj"
+  },
+  {
+    "directory": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build",
+    "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -I\"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include\" -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\tiletwister_core.dir\\src\\Grid.cpp.obj -c \"C:\\Users\\porta\\OneDrive\\Documents\\La plateforme\\C++\\Tile Twister 2048\\TileTwister\\src\\Grid.cpp\"",
+    "file": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/src/Grid.cpp",
+    "output": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build/CMakeFiles/tiletwister_core.dir/src/Grid.cpp.obj"
+  },
+  {
+    "directory": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build",
+    "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -I\"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include\" -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\tiletwister_core.dir\\src\\Game.cpp.obj -c \"C:\\Users\\porta\\OneDrive\\Documents\\La plateforme\\C++\\Tile Twister 2048\\TileTwister\\src\\Game.cpp\"",
+    "file": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/src/Game.cpp",
+    "output": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build/CMakeFiles/tiletwister_core.dir/src/Game.cpp.obj"
+  },
+  {
+    "directory": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build",
+    "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDL_MAIN_HANDLED -I\"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include\" -I/ucrt64/include/SDL2 -isystem C:/msys64/ucrt64/include/SDL2 -std=gnu++20 -o CMakeFiles\\tiletwister_sdl.dir\\src\\GameObject.cpp.obj -c \"C:\\Users\\porta\\OneDrive\\Documents\\La plateforme\\C++\\Tile Twister 2048\\TileTwister\\src\\GameObject.cpp\"",
+    "file": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/src/GameObject.cpp",
+    "output": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build/CMakeFiles/tiletwister_sdl.dir/src/GameObject.cpp.obj"
+  },
+  {
+    "directory": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build",
+    "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDL_MAIN_HANDLED -I\"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include\" -I/ucrt64/include/SDL2 -isystem C:/msys64/ucrt64/include/SDL2 -std=gnu++20 -o CMakeFiles\\tiletwister_sdl.dir\\src\\GridView.cpp.obj -c \"C:\\Users\\porta\\OneDrive\\Documents\\La plateforme\\C++\\Tile Twister 2048\\TileTwister\\src\\GridView.cpp\"",
+    "file": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/src/GridView.cpp",
+    "output": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build/CMakeFiles/tiletwister_sdl.dir/src/GridView.cpp.obj"
+  },
+  {
+    "directory": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build",
+    "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDL_MAIN_HANDLED -I\"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include\" -I/ucrt64/include/SDL2 -isystem C:/msys64/ucrt64/include/SDL2 -std=gnu++20 -o CMakeFiles\\tiletwister_sdl.dir\\src\\TileView.cpp.obj -c \"C:\\Users\\porta\\OneDrive\\Documents\\La plateforme\\C++\\Tile Twister 2048\\TileTwister\\src\\TileView.cpp\"",
+    "file": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/src/TileView.cpp",
+    "output": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build/CMakeFiles/tiletwister_sdl.dir/src/TileView.cpp.obj"
+  },
+  {
+    "directory": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build",
+    "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDL_MAIN_HANDLED -I\"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include\" -I/ucrt64/include/SDL2 -isystem C:/msys64/ucrt64/include/SDL2 -std=gnu++20 -o CMakeFiles\\tiletwister_sdl.dir\\src\\Window.cpp.obj -c \"C:\\Users\\porta\\OneDrive\\Documents\\La plateforme\\C++\\Tile Twister 2048\\TileTwister\\src\\Window.cpp\"",
+    "file": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/src/Window.cpp",
+    "output": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build/CMakeFiles/tiletwister_sdl.dir/src/Window.cpp.obj"
+  },
+  {
+    "directory": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build",
+    "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDL_MAIN_HANDLED -I\"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include\" -I/ucrt64/include/SDL2 -isystem C:/msys64/ucrt64/include/SDL2 -std=gnu++20 -o CMakeFiles\\tiletwister.dir\\src\\main.cpp.obj -c \"C:\\Users\\porta\\OneDrive\\Documents\\La plateforme\\C++\\Tile Twister 2048\\TileTwister\\src\\main.cpp\"",
+    "file": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/src/main.cpp",
+    "output": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build/CMakeFiles/tiletwister.dir/src/main.cpp.obj"
+  },
+  {
+    "directory": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build",
+    "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDL_MAIN_HANDLED -I\"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include\" -I/ucrt64/include/SDL2 -isystem C:/msys64/ucrt64/include/SDL2 -std=gnu++20 -o CMakeFiles\\sdl_test.dir\\sdl\\sdl_test.cpp.obj -c \"C:\\Users\\porta\\OneDrive\\Documents\\La plateforme\\C++\\Tile Twister 2048\\TileTwister\\sdl\\sdl_test.cpp\"",
+    "file": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/sdl/sdl_test.cpp",
+    "output": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build/CMakeFiles/sdl_test.dir/sdl/sdl_test.cpp.obj"
+  },
+  {
+    "directory": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build",
+    "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -I\"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include\" -std=gnu++20 -o CMakeFiles\\tests_runner.dir\\tests\\test_main.cpp.obj -c \"C:\\Users\\porta\\OneDrive\\Documents\\La plateforme\\C++\\Tile Twister 2048\\TileTwister\\tests\\test_main.cpp\"",
+    "file": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/tests/test_main.cpp",
+    "output": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build/CMakeFiles/tests_runner.dir/tests/test_main.cpp.obj"
+  },
+  {
+    "directory": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build",
+    "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -I\"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include\" -std=gnu++20 -o CMakeFiles\\tests_runner.dir\\tests\\TestGrid.cpp.obj -c \"C:\\Users\\porta\\OneDrive\\Documents\\La plateforme\\C++\\Tile Twister 2048\\TileTwister\\tests\\TestGrid.cpp\"",
+    "file": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/tests/TestGrid.cpp",
+    "output": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build/CMakeFiles/tests_runner.dir/tests/TestGrid.cpp.obj"
+  },
+  {
+    "directory": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build",
+    "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -I\"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include\" -std=gnu++20 -o CMakeFiles\\tests_runner.dir\\tests\\TestMoves.cpp.obj -c \"C:\\Users\\porta\\OneDrive\\Documents\\La plateforme\\C++\\Tile Twister 2048\\TileTwister\\tests\\TestMoves.cpp\"",
+    "file": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/tests/TestMoves.cpp",
+    "output": "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build/CMakeFiles/tests_runner.dir/tests/TestMoves.cpp.obj"
+  }
+]

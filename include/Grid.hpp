@@ -1,35 +1,26 @@
-#pragma once
-
 #include <vector>
-#include <array>
-#include <utility>
+
 #include "Tile.hpp"
-#include "Direction.hpp"
+
+enum class Direction { UP, DOWN, LEFT, RIGHT };
 
 class Grid {
-    public:
-        static const int GRID_SIZE = 4;
-        using Row = std::array<Tile, GRID_SIZE>;
-        using Board = std::array<Row, GRID_SIZE>;
+ private:
+  Tile* tiles[4][4];
 
-        Grid();
+ public:
+  Grid();
+  bool move(Direction dir);
+  bool isCellEmpty() const;
+  bool canMerge() const;
+  bool canMove() const;
+  void moveLeft();
+  void moveRight();
+  void moveUp();
+  void moveDown();
+  void mergeTiles(Direction dir);
+  void addTile(Tile* tile);
+  void addRandomTile();
+  Tile* getTile(int i, int j) const { return tiles[i][j]; }
 
-        const Board& board() const { return m_board; }
-
-        bool move(Direction dir);
-        void reset();
-        void addRandomTile();
-        bool canMove() const;
-
-    private:
-        Board m_board{};
-
-        std::vector<std::pair<int, int>> emptyCells() const;
-
-        bool moveLeft();
-        bool moveRight();
-        bool moveUp();
-        bool moveDown();
-
-        bool slideAndCombineRow(std::array<Tile, GRID_SIZE>& line);
 };

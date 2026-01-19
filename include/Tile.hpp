@@ -1,17 +1,19 @@
+
 #pragma once
+#include <iostream>
 
 class Tile {
-    public:
-        Tile() = default;
-        explicit Tile(int v) : value(v) {}
+private:
+    int value;
+    int x;
+    int y;
 
-        bool isEmpty() const { return value == 0; }
-        
-        int getValue() const { return value; }
-        void setValue(int v) { value = v; }
+public:
+    Tile(int v, int posX, int posY);
+     int getValue()const;
+     void setValue(int newVal); 
+     std::pair<int, int> getPosition() const;
+     void setPosition(int newX, int newY);
 
-        void clear() { value = 0; }
 
-    private:
-        int value{0};
 };

@@ -36,20 +36,197 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/build/
 # =============================================================================
+# Object build statements for STATIC_LIBRARY target tiletwister_core
+
+
+#############################################
+# Order-only phony target for tiletwister_core
+
+build cmake_object_order_depends_target_tiletwister_core: phony || .
+
+build CMakeFiles/tiletwister_core.dir/src/Direction.cpp.obj: CXX_COMPILER__tiletwister_core_unscanned_ C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/src/Direction.cpp || cmake_object_order_depends_target_tiletwister_core
+  DEP_FILE = CMakeFiles\tiletwister_core.dir\src\Direction.cpp.obj.d
+  FLAGS = -std=gnu++20 -Wall -Wextra -Wpedantic
+  INCLUDES = -I"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include"
+  OBJECT_DIR = CMakeFiles\tiletwister_core.dir
+  OBJECT_FILE_DIR = CMakeFiles\tiletwister_core.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\tiletwister_core.dir\tiletwister_core.pdb
+  TARGET_PDB = libtiletwister_core.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\tiletwister_core.dir
+
+build CMakeFiles/tiletwister_core.dir/src/Tile.cpp.obj: CXX_COMPILER__tiletwister_core_unscanned_ C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/src/Tile.cpp || cmake_object_order_depends_target_tiletwister_core
+  DEP_FILE = CMakeFiles\tiletwister_core.dir\src\Tile.cpp.obj.d
+  FLAGS = -std=gnu++20 -Wall -Wextra -Wpedantic
+  INCLUDES = -I"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include"
+  OBJECT_DIR = CMakeFiles\tiletwister_core.dir
+  OBJECT_FILE_DIR = CMakeFiles\tiletwister_core.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\tiletwister_core.dir\tiletwister_core.pdb
+  TARGET_PDB = libtiletwister_core.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\tiletwister_core.dir
+
+build CMakeFiles/tiletwister_core.dir/src/Grid.cpp.obj: CXX_COMPILER__tiletwister_core_unscanned_ C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/src/Grid.cpp || cmake_object_order_depends_target_tiletwister_core
+  DEP_FILE = CMakeFiles\tiletwister_core.dir\src\Grid.cpp.obj.d
+  FLAGS = -std=gnu++20 -Wall -Wextra -Wpedantic
+  INCLUDES = -I"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include"
+  OBJECT_DIR = CMakeFiles\tiletwister_core.dir
+  OBJECT_FILE_DIR = CMakeFiles\tiletwister_core.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\tiletwister_core.dir\tiletwister_core.pdb
+  TARGET_PDB = libtiletwister_core.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\tiletwister_core.dir
+
+build CMakeFiles/tiletwister_core.dir/src/Game.cpp.obj: CXX_COMPILER__tiletwister_core_unscanned_ C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/src/Game.cpp || cmake_object_order_depends_target_tiletwister_core
+  DEP_FILE = CMakeFiles\tiletwister_core.dir\src\Game.cpp.obj.d
+  FLAGS = -std=gnu++20 -Wall -Wextra -Wpedantic
+  INCLUDES = -I"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include"
+  OBJECT_DIR = CMakeFiles\tiletwister_core.dir
+  OBJECT_FILE_DIR = CMakeFiles\tiletwister_core.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\tiletwister_core.dir\tiletwister_core.pdb
+  TARGET_PDB = libtiletwister_core.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\tiletwister_core.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target tiletwister_core
+
+
+#############################################
+# Link the static library libtiletwister_core.a
+
+build libtiletwister_core.a: CXX_STATIC_LIBRARY_LINKER__tiletwister_core_ CMakeFiles/tiletwister_core.dir/src/Direction.cpp.obj CMakeFiles/tiletwister_core.dir/src/Tile.cpp.obj CMakeFiles/tiletwister_core.dir/src/Grid.cpp.obj CMakeFiles/tiletwister_core.dir/src/Game.cpp.obj
+  OBJECT_DIR = CMakeFiles\tiletwister_core.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\tiletwister_core.dir\tiletwister_core.pdb
+  TARGET_FILE = libtiletwister_core.a
+  TARGET_PDB = libtiletwister_core.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\tiletwister_core.dir
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target tiletwister_sdl
+
+
+#############################################
+# Order-only phony target for tiletwister_sdl
+
+build cmake_object_order_depends_target_tiletwister_sdl: phony || cmake_object_order_depends_target_tiletwister_core
+
+build CMakeFiles/tiletwister_sdl.dir/src/GameObject.cpp.obj: CXX_COMPILER__tiletwister_sdl_unscanned_ C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/src/GameObject.cpp || cmake_object_order_depends_target_tiletwister_sdl
+  DEFINES = -DSDL_MAIN_HANDLED
+  DEP_FILE = CMakeFiles\tiletwister_sdl.dir\src\GameObject.cpp.obj.d
+  FLAGS = -std=gnu++20
+  INCLUDES = -I"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include" -I/ucrt64/include/SDL2 -isystem C:/msys64/ucrt64/include/SDL2
+  OBJECT_DIR = CMakeFiles\tiletwister_sdl.dir
+  OBJECT_FILE_DIR = CMakeFiles\tiletwister_sdl.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\tiletwister_sdl.dir\tiletwister_sdl.pdb
+  TARGET_PDB = libtiletwister_sdl.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\tiletwister_sdl.dir
+
+build CMakeFiles/tiletwister_sdl.dir/src/GridView.cpp.obj: CXX_COMPILER__tiletwister_sdl_unscanned_ C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/src/GridView.cpp || cmake_object_order_depends_target_tiletwister_sdl
+  DEFINES = -DSDL_MAIN_HANDLED
+  DEP_FILE = CMakeFiles\tiletwister_sdl.dir\src\GridView.cpp.obj.d
+  FLAGS = -std=gnu++20
+  INCLUDES = -I"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include" -I/ucrt64/include/SDL2 -isystem C:/msys64/ucrt64/include/SDL2
+  OBJECT_DIR = CMakeFiles\tiletwister_sdl.dir
+  OBJECT_FILE_DIR = CMakeFiles\tiletwister_sdl.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\tiletwister_sdl.dir\tiletwister_sdl.pdb
+  TARGET_PDB = libtiletwister_sdl.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\tiletwister_sdl.dir
+
+build CMakeFiles/tiletwister_sdl.dir/src/TileView.cpp.obj: CXX_COMPILER__tiletwister_sdl_unscanned_ C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/src/TileView.cpp || cmake_object_order_depends_target_tiletwister_sdl
+  DEFINES = -DSDL_MAIN_HANDLED
+  DEP_FILE = CMakeFiles\tiletwister_sdl.dir\src\TileView.cpp.obj.d
+  FLAGS = -std=gnu++20
+  INCLUDES = -I"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include" -I/ucrt64/include/SDL2 -isystem C:/msys64/ucrt64/include/SDL2
+  OBJECT_DIR = CMakeFiles\tiletwister_sdl.dir
+  OBJECT_FILE_DIR = CMakeFiles\tiletwister_sdl.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\tiletwister_sdl.dir\tiletwister_sdl.pdb
+  TARGET_PDB = libtiletwister_sdl.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\tiletwister_sdl.dir
+
+build CMakeFiles/tiletwister_sdl.dir/src/Window.cpp.obj: CXX_COMPILER__tiletwister_sdl_unscanned_ C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/src/Window.cpp || cmake_object_order_depends_target_tiletwister_sdl
+  DEFINES = -DSDL_MAIN_HANDLED
+  DEP_FILE = CMakeFiles\tiletwister_sdl.dir\src\Window.cpp.obj.d
+  FLAGS = -std=gnu++20
+  INCLUDES = -I"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include" -I/ucrt64/include/SDL2 -isystem C:/msys64/ucrt64/include/SDL2
+  OBJECT_DIR = CMakeFiles\tiletwister_sdl.dir
+  OBJECT_FILE_DIR = CMakeFiles\tiletwister_sdl.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\tiletwister_sdl.dir\tiletwister_sdl.pdb
+  TARGET_PDB = libtiletwister_sdl.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\tiletwister_sdl.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target tiletwister_sdl
+
+
+#############################################
+# Link the static library libtiletwister_sdl.a
+
+build libtiletwister_sdl.a: CXX_STATIC_LIBRARY_LINKER__tiletwister_sdl_ CMakeFiles/tiletwister_sdl.dir/src/GameObject.cpp.obj CMakeFiles/tiletwister_sdl.dir/src/GridView.cpp.obj CMakeFiles/tiletwister_sdl.dir/src/TileView.cpp.obj CMakeFiles/tiletwister_sdl.dir/src/Window.cpp.obj || libtiletwister_core.a
+  OBJECT_DIR = CMakeFiles\tiletwister_sdl.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\tiletwister_sdl.dir\tiletwister_sdl.pdb
+  TARGET_FILE = libtiletwister_sdl.a
+  TARGET_PDB = libtiletwister_sdl.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\tiletwister_sdl.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target tiletwister
+
+
+#############################################
+# Order-only phony target for tiletwister
+
+build cmake_object_order_depends_target_tiletwister: phony || cmake_object_order_depends_target_tiletwister_core cmake_object_order_depends_target_tiletwister_sdl
+
+build CMakeFiles/tiletwister.dir/src/main.cpp.obj: CXX_COMPILER__tiletwister_unscanned_ C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/src/main.cpp || cmake_object_order_depends_target_tiletwister
+  DEFINES = -DSDL_MAIN_HANDLED
+  DEP_FILE = CMakeFiles\tiletwister.dir\src\main.cpp.obj.d
+  FLAGS = -std=gnu++20
+  INCLUDES = -I"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include" -I/ucrt64/include/SDL2 -isystem C:/msys64/ucrt64/include/SDL2
+  OBJECT_DIR = CMakeFiles\tiletwister.dir
+  OBJECT_FILE_DIR = CMakeFiles\tiletwister.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\tiletwister.dir\
+  TARGET_PDB = tiletwister.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\tiletwister.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tiletwister
+
+
+#############################################
+# Link the executable tiletwister.exe
+
+build tiletwister.exe: CXX_EXECUTABLE_LINKER__tiletwister_ CMakeFiles/tiletwister.dir/src/main.cpp.obj | libtiletwister_sdl.a libtiletwister_core.a C$:/msys64/ucrt64/lib/libSDL2.dll.a C$:/msys64/ucrt64/lib/libSDL2_ttf.dll.a || libtiletwister_core.a libtiletwister_sdl.a
+  LINK_FLAGS = -mconsole
+  LINK_LIBRARIES = libtiletwister_sdl.a  libtiletwister_core.a  C:/msys64/ucrt64/lib/libSDL2.dll.a  C:/msys64/ucrt64/lib/libSDL2_ttf.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\tiletwister.dir
+  POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\cmake.exe -E copy_if_different C:/msys64/ucrt64/bin/SDL2.dll C:/msys64/ucrt64/bin/SDL2_ttf.dll "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build""
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\tiletwister.dir\
+  TARGET_FILE = tiletwister.exe
+  TARGET_IMPLIB = libtiletwister.dll.a
+  TARGET_PDB = tiletwister.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\tiletwister.dir
+
+# =============================================================================
 # Object build statements for EXECUTABLE target sdl_test
 
 
 #############################################
 # Order-only phony target for sdl_test
 
-build cmake_object_order_depends_target_sdl_test: phony || .
+build cmake_object_order_depends_target_sdl_test: phony || cmake_object_order_depends_target_tiletwister_core cmake_object_order_depends_target_tiletwister_sdl
 
-build CMakeFiles/sdl_test.dir/sc/sdl/sdl_test.cpp.obj: CXX_COMPILER__sdl_test_unscanned_ C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/sc/sdl/sdl_test.cpp || cmake_object_order_depends_target_sdl_test
-  DEP_FILE = CMakeFiles\sdl_test.dir\sc\sdl\sdl_test.cpp.obj.d
-  FLAGS = -std=c++20
-  INCLUDES = -isystem C:/msys64/mingw64/include/SDL2
+build CMakeFiles/sdl_test.dir/sdl/sdl_test.cpp.obj: CXX_COMPILER__sdl_test_unscanned_ C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/sdl/sdl_test.cpp || cmake_object_order_depends_target_sdl_test
+  DEFINES = -DSDL_MAIN_HANDLED
+  DEP_FILE = CMakeFiles\sdl_test.dir\sdl\sdl_test.cpp.obj.d
+  FLAGS = -std=gnu++20
+  INCLUDES = -I"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include" -I/ucrt64/include/SDL2 -isystem C:/msys64/ucrt64/include/SDL2
   OBJECT_DIR = CMakeFiles\sdl_test.dir
-  OBJECT_FILE_DIR = CMakeFiles\sdl_test.dir\sc\sdl
+  OBJECT_FILE_DIR = CMakeFiles\sdl_test.dir\sdl
   TARGET_COMPILE_PDB = CMakeFiles\sdl_test.dir\
   TARGET_PDB = sdl_test.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\sdl_test.dir
@@ -62,10 +239,11 @@ build CMakeFiles/sdl_test.dir/sc/sdl/sdl_test.cpp.obj: CXX_COMPILER__sdl_test_un
 #############################################
 # Link the executable sdl_test.exe
 
-build sdl_test.exe: CXX_EXECUTABLE_LINKER__sdl_test_ CMakeFiles/sdl_test.dir/sc/sdl/sdl_test.cpp.obj | C$:/msys64/mingw64/lib/libSDL2main.a C$:/msys64/mingw64/lib/libSDL2.dll.a
-  LINK_LIBRARIES = C:/msys64/mingw64/lib/libSDL2main.a  C:/msys64/mingw64/lib/libSDL2.dll.a  -lshell32  -Wl,--undefined=WinMain  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+build sdl_test.exe: CXX_EXECUTABLE_LINKER__sdl_test_ CMakeFiles/sdl_test.dir/sdl/sdl_test.cpp.obj | libtiletwister_sdl.a libtiletwister_core.a C$:/msys64/ucrt64/lib/libSDL2.dll.a C$:/msys64/ucrt64/lib/libSDL2_ttf.dll.a || libtiletwister_core.a libtiletwister_sdl.a
+  LINK_FLAGS = -mconsole
+  LINK_LIBRARIES = libtiletwister_sdl.a  libtiletwister_core.a  C:/msys64/ucrt64/lib/libSDL2.dll.a  C:/msys64/ucrt64/lib/libSDL2_ttf.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\sdl_test.dir
-  POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\mingw64\bin\cmake.exe -E copy_if_different C:/msys64/mingw64/bin/SDL2.dll "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build""
+  POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\cmake.exe -E copy_if_different C:/msys64/ucrt64/bin/SDL2.dll C:/msys64/ucrt64/bin/SDL2_ttf.dll "C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build""
   PRE_LINK = cd .
   TARGET_COMPILE_PDB = CMakeFiles\sdl_test.dir\
   TARGET_FILE = sdl_test.exe
@@ -75,10 +253,249 @@ build sdl_test.exe: CXX_EXECUTABLE_LINKER__sdl_test_ CMakeFiles/sdl_test.dir/sc/
 
 
 #############################################
+# Utility command for Experimental
+
+build Experimental: phony CMakeFiles/Experimental
+
+
+#############################################
+# Utility command for Nightly
+
+build Nightly: phony CMakeFiles/Nightly
+
+
+#############################################
+# Utility command for Continuous
+
+build Continuous: phony CMakeFiles/Continuous
+
+
+#############################################
+# Utility command for NightlyMemoryCheck
+
+build NightlyMemoryCheck: phony CMakeFiles/NightlyMemoryCheck
+
+
+#############################################
+# Utility command for NightlyStart
+
+build NightlyStart: phony CMakeFiles/NightlyStart
+
+
+#############################################
+# Utility command for NightlyUpdate
+
+build NightlyUpdate: phony CMakeFiles/NightlyUpdate
+
+
+#############################################
+# Utility command for NightlyConfigure
+
+build NightlyConfigure: phony CMakeFiles/NightlyConfigure
+
+
+#############################################
+# Utility command for NightlyBuild
+
+build NightlyBuild: phony CMakeFiles/NightlyBuild
+
+
+#############################################
+# Utility command for NightlyTest
+
+build NightlyTest: phony CMakeFiles/NightlyTest
+
+
+#############################################
+# Utility command for NightlyCoverage
+
+build NightlyCoverage: phony CMakeFiles/NightlyCoverage
+
+
+#############################################
+# Utility command for NightlyMemCheck
+
+build NightlyMemCheck: phony CMakeFiles/NightlyMemCheck
+
+
+#############################################
+# Utility command for NightlySubmit
+
+build NightlySubmit: phony CMakeFiles/NightlySubmit
+
+
+#############################################
+# Utility command for ExperimentalStart
+
+build ExperimentalStart: phony CMakeFiles/ExperimentalStart
+
+
+#############################################
+# Utility command for ExperimentalUpdate
+
+build ExperimentalUpdate: phony CMakeFiles/ExperimentalUpdate
+
+
+#############################################
+# Utility command for ExperimentalConfigure
+
+build ExperimentalConfigure: phony CMakeFiles/ExperimentalConfigure
+
+
+#############################################
+# Utility command for ExperimentalBuild
+
+build ExperimentalBuild: phony CMakeFiles/ExperimentalBuild
+
+
+#############################################
+# Utility command for ExperimentalTest
+
+build ExperimentalTest: phony CMakeFiles/ExperimentalTest
+
+
+#############################################
+# Utility command for ExperimentalCoverage
+
+build ExperimentalCoverage: phony CMakeFiles/ExperimentalCoverage
+
+
+#############################################
+# Utility command for ExperimentalMemCheck
+
+build ExperimentalMemCheck: phony CMakeFiles/ExperimentalMemCheck
+
+
+#############################################
+# Utility command for ExperimentalSubmit
+
+build ExperimentalSubmit: phony CMakeFiles/ExperimentalSubmit
+
+
+#############################################
+# Utility command for ContinuousStart
+
+build ContinuousStart: phony CMakeFiles/ContinuousStart
+
+
+#############################################
+# Utility command for ContinuousUpdate
+
+build ContinuousUpdate: phony CMakeFiles/ContinuousUpdate
+
+
+#############################################
+# Utility command for ContinuousConfigure
+
+build ContinuousConfigure: phony CMakeFiles/ContinuousConfigure
+
+
+#############################################
+# Utility command for ContinuousBuild
+
+build ContinuousBuild: phony CMakeFiles/ContinuousBuild
+
+
+#############################################
+# Utility command for ContinuousTest
+
+build ContinuousTest: phony CMakeFiles/ContinuousTest
+
+
+#############################################
+# Utility command for ContinuousCoverage
+
+build ContinuousCoverage: phony CMakeFiles/ContinuousCoverage
+
+
+#############################################
+# Utility command for ContinuousMemCheck
+
+build ContinuousMemCheck: phony CMakeFiles/ContinuousMemCheck
+
+
+#############################################
+# Utility command for ContinuousSubmit
+
+build ContinuousSubmit: phony CMakeFiles/ContinuousSubmit
+
+# =============================================================================
+# Object build statements for EXECUTABLE target tests_runner
+
+
+#############################################
+# Order-only phony target for tests_runner
+
+build cmake_object_order_depends_target_tests_runner: phony || cmake_object_order_depends_target_tiletwister_core
+
+build CMakeFiles/tests_runner.dir/tests/test_main.cpp.obj: CXX_COMPILER__tests_runner_unscanned_ C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/tests/test_main.cpp || cmake_object_order_depends_target_tests_runner
+  DEP_FILE = CMakeFiles\tests_runner.dir\tests\test_main.cpp.obj.d
+  FLAGS = -std=gnu++20
+  INCLUDES = -I"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include"
+  OBJECT_DIR = CMakeFiles\tests_runner.dir
+  OBJECT_FILE_DIR = CMakeFiles\tests_runner.dir\tests
+  TARGET_COMPILE_PDB = CMakeFiles\tests_runner.dir\
+  TARGET_PDB = tests_runner.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\tests_runner.dir
+
+build CMakeFiles/tests_runner.dir/tests/TestGrid.cpp.obj: CXX_COMPILER__tests_runner_unscanned_ C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/tests/TestGrid.cpp || cmake_object_order_depends_target_tests_runner
+  DEP_FILE = CMakeFiles\tests_runner.dir\tests\TestGrid.cpp.obj.d
+  FLAGS = -std=gnu++20
+  INCLUDES = -I"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include"
+  OBJECT_DIR = CMakeFiles\tests_runner.dir
+  OBJECT_FILE_DIR = CMakeFiles\tests_runner.dir\tests
+  TARGET_COMPILE_PDB = CMakeFiles\tests_runner.dir\
+  TARGET_PDB = tests_runner.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\tests_runner.dir
+
+build CMakeFiles/tests_runner.dir/tests/TestMoves.cpp.obj: CXX_COMPILER__tests_runner_unscanned_ C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/tests/TestMoves.cpp || cmake_object_order_depends_target_tests_runner
+  DEP_FILE = CMakeFiles\tests_runner.dir\tests\TestMoves.cpp.obj.d
+  FLAGS = -std=gnu++20
+  INCLUDES = -I"C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/include"
+  OBJECT_DIR = CMakeFiles\tests_runner.dir
+  OBJECT_FILE_DIR = CMakeFiles\tests_runner.dir\tests
+  TARGET_COMPILE_PDB = CMakeFiles\tests_runner.dir\
+  TARGET_PDB = tests_runner.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\tests_runner.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tests_runner
+
+
+#############################################
+# Link the executable tests_runner.exe
+
+build tests_runner.exe: CXX_EXECUTABLE_LINKER__tests_runner_ CMakeFiles/tests_runner.dir/tests/test_main.cpp.obj CMakeFiles/tests_runner.dir/tests/TestGrid.cpp.obj CMakeFiles/tests_runner.dir/tests/TestMoves.cpp.obj | libtiletwister_core.a || libtiletwister_core.a
+  LINK_FLAGS = -mconsole
+  LINK_LIBRARIES = libtiletwister_core.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\tests_runner.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\tests_runner.dir\
+  TARGET_FILE = tests_runner.exe
+  TARGET_IMPLIB = libtests_runner.dll.a
+  TARGET_PDB = tests_runner.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\tests_runner.dir
+
+
+#############################################
+# Utility command for test
+
+build CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build test: phony CMakeFiles/test.util
+
+
+#############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -89,17 +506,249 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister" -B"C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\cmake.exe --regenerate-during-build -S"C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister" -B"C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
+
+#############################################
+# Custom command for CMakeFiles\Experimental
+
+build CMakeFiles/Experimental | ${cmake_ninja_workdir}CMakeFiles/Experimental: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Experimental -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\Nightly
+
+build CMakeFiles/Nightly | ${cmake_ninja_workdir}CMakeFiles/Nightly: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Nightly -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\Continuous
+
+build CMakeFiles/Continuous | ${cmake_ninja_workdir}CMakeFiles/Continuous: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Continuous -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\NightlyMemoryCheck
+
+build CMakeFiles/NightlyMemoryCheck | ${cmake_ninja_workdir}CMakeFiles/NightlyMemoryCheck: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=NightlyMemoryCheck -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\NightlyStart
+
+build CMakeFiles/NightlyStart | ${cmake_ninja_workdir}CMakeFiles/NightlyStart: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Nightly -DACTIONS=Start -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\NightlyUpdate
+
+build CMakeFiles/NightlyUpdate | ${cmake_ninja_workdir}CMakeFiles/NightlyUpdate: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Nightly -DACTIONS=Update -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\NightlyConfigure
+
+build CMakeFiles/NightlyConfigure | ${cmake_ninja_workdir}CMakeFiles/NightlyConfigure: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Nightly -DACTIONS=Configure -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\NightlyBuild
+
+build CMakeFiles/NightlyBuild | ${cmake_ninja_workdir}CMakeFiles/NightlyBuild: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Nightly -DACTIONS=Build -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\NightlyTest
+
+build CMakeFiles/NightlyTest | ${cmake_ninja_workdir}CMakeFiles/NightlyTest: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Nightly -DACTIONS=Test -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\NightlyCoverage
+
+build CMakeFiles/NightlyCoverage | ${cmake_ninja_workdir}CMakeFiles/NightlyCoverage: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Nightly -DACTIONS=Coverage -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\NightlyMemCheck
+
+build CMakeFiles/NightlyMemCheck | ${cmake_ninja_workdir}CMakeFiles/NightlyMemCheck: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Nightly -DACTIONS=MemCheck -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\NightlySubmit
+
+build CMakeFiles/NightlySubmit | ${cmake_ninja_workdir}CMakeFiles/NightlySubmit: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Nightly -DACTIONS=Submit -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\ExperimentalStart
+
+build CMakeFiles/ExperimentalStart | ${cmake_ninja_workdir}CMakeFiles/ExperimentalStart: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Experimental -DACTIONS=Start -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\ExperimentalUpdate
+
+build CMakeFiles/ExperimentalUpdate | ${cmake_ninja_workdir}CMakeFiles/ExperimentalUpdate: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Experimental -DACTIONS=Update -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\ExperimentalConfigure
+
+build CMakeFiles/ExperimentalConfigure | ${cmake_ninja_workdir}CMakeFiles/ExperimentalConfigure: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Experimental -DACTIONS=Configure -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\ExperimentalBuild
+
+build CMakeFiles/ExperimentalBuild | ${cmake_ninja_workdir}CMakeFiles/ExperimentalBuild: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Experimental -DACTIONS=Build -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\ExperimentalTest
+
+build CMakeFiles/ExperimentalTest | ${cmake_ninja_workdir}CMakeFiles/ExperimentalTest: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Experimental -DACTIONS=Test -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\ExperimentalCoverage
+
+build CMakeFiles/ExperimentalCoverage | ${cmake_ninja_workdir}CMakeFiles/ExperimentalCoverage: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Experimental -DACTIONS=Coverage -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\ExperimentalMemCheck
+
+build CMakeFiles/ExperimentalMemCheck | ${cmake_ninja_workdir}CMakeFiles/ExperimentalMemCheck: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Experimental -DACTIONS=MemCheck -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\ExperimentalSubmit
+
+build CMakeFiles/ExperimentalSubmit | ${cmake_ninja_workdir}CMakeFiles/ExperimentalSubmit: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Experimental -DACTIONS=Submit -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\ContinuousStart
+
+build CMakeFiles/ContinuousStart | ${cmake_ninja_workdir}CMakeFiles/ContinuousStart: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Continuous -DACTIONS=Start -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\ContinuousUpdate
+
+build CMakeFiles/ContinuousUpdate | ${cmake_ninja_workdir}CMakeFiles/ContinuousUpdate: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Continuous -DACTIONS=Update -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\ContinuousConfigure
+
+build CMakeFiles/ContinuousConfigure | ${cmake_ninja_workdir}CMakeFiles/ContinuousConfigure: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Continuous -DACTIONS=Configure -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\ContinuousBuild
+
+build CMakeFiles/ContinuousBuild | ${cmake_ninja_workdir}CMakeFiles/ContinuousBuild: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Continuous -DACTIONS=Build -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\ContinuousTest
+
+build CMakeFiles/ContinuousTest | ${cmake_ninja_workdir}CMakeFiles/ContinuousTest: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Continuous -DACTIONS=Test -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\ContinuousCoverage
+
+build CMakeFiles/ContinuousCoverage | ${cmake_ninja_workdir}CMakeFiles/ContinuousCoverage: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Continuous -DACTIONS=Coverage -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\ContinuousMemCheck
+
+build CMakeFiles/ContinuousMemCheck | ${cmake_ninja_workdir}CMakeFiles/ContinuousMemCheck: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Continuous -DACTIONS=MemCheck -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\ContinuousSubmit
+
+build CMakeFiles/ContinuousSubmit | ${cmake_ninja_workdir}CMakeFiles/ContinuousSubmit: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\porta\OneDrive\Documents\La plateforme\C++\Tile Twister 2048\TileTwister\build" && C:\msys64\ucrt64\bin\ctest.exe -DMODEL=Continuous -DACTIONS=Submit -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
 # =============================================================================
 # Target aliases.
 
 build sdl_test: phony sdl_test.exe
+
+build tests_runner: phony tests_runner.exe
+
+build tiletwister: phony tiletwister.exe
+
+build tiletwister_core: phony libtiletwister_core.a
+
+build tiletwister_sdl: phony libtiletwister_sdl.a
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +758,7 @@ build sdl_test: phony sdl_test.exe
 #############################################
 # Folder: C:/Users/porta/OneDrive/Documents/La plateforme/C++/Tile Twister 2048/TileTwister/build
 
-build all: phony sdl_test.exe
+build all: phony libtiletwister_core.a libtiletwister_sdl.a tiletwister.exe sdl_test.exe tests_runner.exe
 
 # =============================================================================
 # Built-in targets
@@ -118,14 +767,14 @@ build all: phony sdl_test.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/build/cmake_install.cmake: RERUN_CMAKE | C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/CMakeLists.txt C$:/msys64/mingw64/lib/cmake/SDL2/SDL2Config.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2ConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2Targets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2Targets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2mainTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2mainTargets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2staticTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2staticTargets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2testTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2testTargets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/sdlfind.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/FeatureSummary.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.2.1/CMakeCXXCompiler.cmake CMakeFiles/4.2.1/CMakeRCCompiler.cmake CMakeFiles/4.2.1/CMakeSystem.cmake
+build build.ninja C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/build/cmake_install.cmake C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/build/CTestTestfile.cmake: RERUN_CMAKE | C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/CMakeLists.txt C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2Config.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2ConfigVersion.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2Targets-release.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2Targets.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2mainTargets-release.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2mainTargets.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2staticTargets-release.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2staticTargets.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2testTargets-release.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2testTargets.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/sdlfind.cmake C$:/msys64/ucrt64/lib/cmake/SDL2_ttf/sdl2_ttf-config-version.cmake C$:/msys64/ucrt64/lib/cmake/SDL2_ttf/sdl2_ttf-config.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeFindDependencyMacro.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CTest.cmake C$:/msys64/ucrt64/share/cmake/Modules/CTestTargets.cmake C$:/msys64/ucrt64/share/cmake/Modules/CTestUseLaunchers.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/DartConfiguration.tcl.in C$:/msys64/ucrt64/share/cmake/Modules/FeatureSummary.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/ucrt64/share/cmake/Templates/CTestScript.cmake.in CMakeCache.txt CMakeFiles/4.2.1/CMakeCXXCompiler.cmake CMakeFiles/4.2.1/CMakeRCCompiler.cmake CMakeFiles/4.2.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/CMakeLists.txt C$:/msys64/mingw64/lib/cmake/SDL2/SDL2Config.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2ConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2Targets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2Targets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2mainTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2mainTargets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2staticTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2staticTargets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2testTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2testTargets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/sdlfind.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/FeatureSummary.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.2.1/CMakeCXXCompiler.cmake CMakeFiles/4.2.1/CMakeRCCompiler.cmake CMakeFiles/4.2.1/CMakeSystem.cmake: phony
+build C$:/Users/porta/OneDrive/Documents/La$ plateforme/C++/Tile$ Twister$ 2048/TileTwister/CMakeLists.txt C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2Config.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2ConfigVersion.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2Targets-release.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2Targets.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2mainTargets-release.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2mainTargets.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2staticTargets-release.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2staticTargets.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2testTargets-release.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/SDL2testTargets.cmake C$:/msys64/ucrt64/lib/cmake/SDL2/sdlfind.cmake C$:/msys64/ucrt64/lib/cmake/SDL2_ttf/sdl2_ttf-config-version.cmake C$:/msys64/ucrt64/lib/cmake/SDL2_ttf/sdl2_ttf-config.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeFindDependencyMacro.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CTest.cmake C$:/msys64/ucrt64/share/cmake/Modules/CTestTargets.cmake C$:/msys64/ucrt64/share/cmake/Modules/CTestUseLaunchers.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/DartConfiguration.tcl.in C$:/msys64/ucrt64/share/cmake/Modules/FeatureSummary.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/ucrt64/share/cmake/Templates/CTestScript.cmake.in CMakeCache.txt CMakeFiles/4.2.1/CMakeCXXCompiler.cmake CMakeFiles/4.2.1/CMakeRCCompiler.cmake CMakeFiles/4.2.1/CMakeSystem.cmake: phony
 
 
 #############################################
